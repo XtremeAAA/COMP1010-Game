@@ -1,0 +1,104 @@
+{
+  "skills": [
+    {
+      "id": "power_strike",
+      "name": "Power Strike",
+      "damage": 25,
+      "staminaCost": 15,
+      "cooldown": 2,
+      "prerequisiteSkills": []
+    },
+    {
+      "id": "cleave",
+      "name": "Cleave",
+      "damage": 40,
+      "staminaCost": 30,
+      "cooldown": 4,
+      "prerequisiteSkills": ["power_strike"]
+    },
+    {
+      "id": "fireball",
+      "name": "Fireball",
+      "damage": 35,
+      "staminaCost": 25,
+      "cooldown": 3,
+      "prerequisiteSkills": []
+    },
+    {
+      "id": "ice_spike",
+      "name": "Ice Spike",
+      "damage": 30,
+      "staminaCost": 20,
+      "cooldown": 2,
+      "prerequisiteSkills": []
+    },
+    {
+      "id": "backstab",
+      "name": "Backstab",
+      "damage": 45,
+      "staminaCost": 35,
+      "cooldown": 4,
+      "prerequisiteSkills": []
+    },
+    {
+      "id": "heal",
+      "name": "Heal",
+      "damage": -20,
+      "staminaCost": 25,
+      "cooldown": 3,
+      "prerequisiteSkills": []
+    }
+  ],
+  "characters": [
+    {
+      "name": "Warrior",
+      "type": "Fighter",
+      "baseHP": 100,
+      "baseStamina": 100,
+      "baseStrength": 15,
+      "baseDefence": 15,
+      "baseEndurance": 12,
+      "skills": [
+        "power_strike",
+        "cleave"
+      ]
+    },
+    {
+      "name": "Mage",
+      "type": "Caster",
+      "baseHP": 80,
+      "baseStamina": 80,
+      "baseStrength": 10,
+      "baseDefence": 10,
+      "baseEndurance": 10,
+      "skills": [
+        "fireball",
+        "ice_spike"
+      ]
+    },
+    {
+      "name": "Rogue",
+      "type": "Assassin",
+      "baseHP": 90,
+      "baseStamina": 90,
+      "baseStrength": 15,
+      "baseDefence": 7,
+      "baseEndurance": 15,
+      "skills": [
+        "backstab"
+      ]
+    },
+    {
+      "name": "Cleric",
+      "type": "Healer",
+      "baseHP": 70,
+      "baseStamina": 70,
+      "baseStrength": 10,
+      "baseDefence": 8,
+      "baseEndurance": 15,
+      "skills": [
+        "heal"
+      ]
+    }
+  ]
+}

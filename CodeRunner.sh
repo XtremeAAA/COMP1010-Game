@@ -1,0 +1,1 @@
+java -cp "source:lib/*" mastersofmq.MastersOfMQ

@@ -1,0 +1,68 @@
+{
+  "opponents": [
+    {
+      "name": "Dark Warrior",
+      "type": "Fighter",
+      "baseHP": 120,
+      "baseStamina": 90,
+      "baseStrength": 18,
+      "baseDefence": 12,
+      "baseEndurance": 10,
+      "skills": [
+        "power_strike",
+        "cleave"
+      ]
+    },
+    {
+      "name": "Shadow Mage",
+      "type": "Caster",
+      "baseHP": 85,
+      "baseStamina": 100,
+      "baseStrength": 8,
+      "baseDefence": 8,
+      "baseEndurance": 12,
+      "skills": [
+        "fireball",
+        "ice_spike"
+      ]
+    },
+    {
+      "name": "Corrupted Rogue",
+      "type": "Assassin",
+      "baseHP": 95,
+      "baseStamina": 95,
+      "baseStrength": 16,
+      "baseDefence": 6,
+      "baseEndurance": 14,
+      "skills": [
+        "backstab"
+      ]
+    },
+    {
+      "name": "Dark Priest",
+      "type": "Healer",
+      "baseHP": 75,
+      "baseStamina": 85,
+      "baseStrength": 9,
+      "baseDefence": 10,
+      "baseEndurance": 16,
+      "skills": [
+        "heal"
+      ]
+    },
+    {
+      "name": "Boss Overlord",
+      "type": "Fighter",
+      "baseHP": 200,
+      "baseStamina": 150,
+      "baseStrength": 25,
+      "baseDefence": 20,
+      "baseEndurance": 20,
+      "skills": [
+        "power_strike",
+        "cleave",
+        "fireball"
+      ]
+    }
+  ]
+}
