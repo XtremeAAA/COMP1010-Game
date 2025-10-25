@@ -5,4 +5,4 @@ javac -d source -cp "lib/*" $(find source -name "*.java")
 echo "Compiled. To run: java -cp \"source:lib/*\" mastersofmq.MastersOfMQ"
 
 
-# java -cp "source:lib/*" mastersofmq.MastersOfMQ
+java -cp "source:lib/*" mastersofmq.MastersOfMQ
